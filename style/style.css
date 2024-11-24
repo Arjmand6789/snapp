@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+@font-face {
+  font-family: vazir-bold;
+  src: url(../vazir-font-v16.1.0/Vazir-Bold.woff2);
+
+  font-family: vazir-light;
+  src: url(../vazir-font-v16.1.0/Vazir-Light.woff2);
+
+  font-family: vazir-medium;
+  src: url(../vazir-font-v16.1.0/Vazir-Medium.woff2);
+}
+/* scroll-bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #c2c1c1;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+main header nav {
+  z-index: 1;
+  font-family: vazir-medium;
+  width: 100%;
+  height: 90px;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+}
+main header nav ul {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main header nav ul li {
+  display: flex;
+  align-items: center;
+}
+main header nav ul li a {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: #7c7c7c;
+  font-size: 16px;
+}
+main header nav ul li a svg {
+  transform: rotate(90deg);
+}
+
+main header .continer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main header .continer .right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 120px 150px 25px 20px;
+  width: 50%;
+  height: 80vh;
+  background-color: rgb(33, 170, 88);
+}
+main header .continer .right-part h1 {
+  font-size: 35px;
+  font-family: vazir-medium;
+  color: white;
+}
+main header .continer .right-part p {
+  font-family: vazir-medium;
+  font-size: 19px;
+  color: white;
+}
+.box {
+  display: inline-block;
+  background-color: white;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  left: 25px;
+}
+main
+  header
+  .continer
+  .right-part
+  .sign-up-box
+  form
+  input[type="number"]::placeholder {
+  color: white;
+  font-family: vazir-medium;
+}
+main header .continer .right-part .sign-up-box form input[type="number"] {
+  font-family: vazir-medium;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  padding: 15px;
+  width: 50%;
+  color: white;
+}
+main header .continer .right-part .sign-up-box form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+main header .continer .right-part .sign-up-box form input[type="submit"] {
+  font-family: vazir-medium;
+  width: 117px;
+  height: 40px;
+  background-color: white;
+  color: #21aa58;
+  border-radius: 5px;
+  border: none;
+}
+main header .continer .right-part > a {
+  font-family: vazir-medium;
+  width: 50%;
+  height: 50px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+main header .continer .left-part {
+  width: 50%;
+}
+main header .continer .left-part {
+  background-image: url(../image/man.jpg);
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+  transform: scaleX(-1);
+}
+.download-box {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.download-box img {
+  display: flex;
+  width: 160px;
+  position: relative;
+  top: 10vh;
+}
+main .footer-continer  {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  top: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 20px;
+}
+main .footer-continer .box-item {
+  background-color: white;
+  width: 316px;
+  height: 97px;
+}
+main .footer-continer .text-continer h1{
+  color: #404040;
+  font-size: 36px;
+  font-family: vazir-medium;
+}
+main .box-continer{
+  width: 80%;
+  min-height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .footer-continer .box-continer .box-item{
+  width: 292px;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  padding:8px;
+  gap: 10px;
+  border-radius: 10px;
+}
+main .footer-continer .box-continer .box-item h3{
+  color: #3f3f3f;
+  font-size: 16px;
+}
+main .footer-continer .box-continer .box-item p{
+  color: #a3a3a3a3;
+  font-size: 14px;
+
+}
